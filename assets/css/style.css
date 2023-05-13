@@ -93,3 +93,33 @@ a.signInMessage, a.signUpMessage {
     font-weight: 400;
     /*text-align: center;*/
 }
+
+.previewImage, .previewVideo {
+    width: 100%;
+}
+
+.previewContainer {
+    position: relative;
+    display: flex;
+}
+
+.previewOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+}
+.previewOverlay .mainDetails {
+    position: relative;
+    top: 35%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.previewOverlay .mainDetails h3 {
+    color: #fff;
+    font-size: 40px;
+    margin: 15px 0;
+}
